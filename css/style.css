@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #2a264a;
+    background-color: aliceblue;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+    margin: 0;
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    color: white;
+    background-color: darkblue;
+
+    margin: 10px;
+    padding: 100px;
+
+    border-color: #749ed3;
+    border-style: solid;
+    border-radius: 64px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 55px;;
+}
+
+h2 {
+    color: black;
+}
+
+b, i, del, sub, sup {
+    background-color: aquamarine;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: brown;
+}
+
+#structure {
+    background-color: bisque;
+    box-shadow: 10px 10px 5px rgb(129, 108, 83);
+}
+
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 20px;
+}
+
+.site-menu li {
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
